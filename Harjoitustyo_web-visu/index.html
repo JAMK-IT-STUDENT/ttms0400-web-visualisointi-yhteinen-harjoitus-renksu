@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Web-visualisointi/K8599</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web-visualisointi/K8599</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <!-- Bulma Version 0.6.0 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="../css/hero.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="../css/hero.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRock+Salt%7CYanone+Kaffeesatz" rel="stylesheet">
 </head>
 <body>
 
-  <section class="hero is-info is-medium is-bold">
+  <section class="hero is-info is-medium is-bold .is-$red">
     <div class="hero-head">
       <nav class="navbar">
         <div class="container">
@@ -43,9 +45,9 @@
         </div>
       </nav>
     </div>
-    <div class="hero-body">
+    <div id='header' class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title">
+        <h1>
           MIKKO RENKOLA
         </h1>
       </div>
@@ -60,7 +62,7 @@
             <div class="content">
               <h4>Coolest harkkatyö ever! </h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Donec luctus erat ut odio pellentesque luctus. Nunc elementum, tellus sit amet pellentesque luctus, metus magna efficitur nulla, ut dictum eros enim cursus ligula.</p>
-              <p><a href="#">Learn more</a></p>
+              <p><a class="has-text-danger" href="#">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -71,7 +73,7 @@
             <div class="content">
               <h4>Oispa loma</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Donec luctus erat ut odio pellentesque luctus. Nunc elementum, tellus sit amet pellentesque luctus, metus magna efficitur nulla, ut dictum eros enim cursus ligula.</p>
-              <p><a href="#">Learn more</a></p>
+              <p><a class="has-text-danger" href="#">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -82,79 +84,56 @@
             <div class="content">
               <h4>Kyä näi o!</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Donec luctus erat ut odio pellentesque luctus. Nunc elementum, tellus sit amet pellentesque luctus, metus magna efficitur nulla, ut dictum eros enim cursus ligula.</p>
-              <p><a href="#">Learn more</a></p>
+              <p><a class="has-text-danger" href="#">Learn more</a></p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="intro column is-8 is-offset-2">
-      <h2 class="title">My works</h2><br>
+    <div class="intro column is-8 is-offset-2 has-text-centered">
+      <h2 class="title is-size-1">My Skills</h2><br>
     </div>
 
     <div class="sandbox">
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <article class="tile is-child notification is-white">
-            <p class="title">Hello World</p>
-            <p class="subtitle">What is up?</p>
-          </article>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification is-white">
-            <p class="title">Foo</p>
-            <p class="subtitle">Bar</p>
-          </article>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification is-white">
-            <p class="title">Third column</p>
-            <p class="subtitle">With some content</p>
+            <p class="title">HTML</p>
+            <p class="subtitle">Subtitle</p>
             <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Donec luctus erat ut odio pellentesque luctus. Nunc elementum.</p>
             </div>
           </article>
         </div>
-      </div>
-
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-8">
-          <div class="tile">
-            <div class="tile is-parent">
-              <article class="tile is-child notification is-white">
-                <p class="title">Middle box</p>
-                <p class="subtitle">With an image</p>
-                <figure class="image is-4by3">
-                  <img src="http://bulma.io/images/placeholders/640x480.png">
-                </figure>
-              </article>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-white">
+            <p class="title">CSS</p>
+            <p class="subtitle">Subtitle</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Donec luctus erat ut odio pellentesque luctus. Nunc elementum.</p>
             </div>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification is-white">
-              <p class="title">Wide column</p>
-              <p class="subtitle">Aligned with the right column</p>
-              <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-              </div>
-            </article>
-          </div>
+          </article>
         </div>
-      </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-white">
+            <p class="title">JavaScript</p>
+            <p class="subtitle">Lorem Ipsum!</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Donec luctus erat ut odio pellentesque luctus. Nunc elementum.</p>
+            </div>
+          </article>
+        </div>
+    </div>
     </div>
   </section>
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
+        <p>2017 - Mikko Renkola - K8599@student.jamk.fi</p>
         <p>
-          <strong>Bulma Templates</strong> by <a href="https://github.com/dansup">Daniel Supernault</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
-        </p>
-        <p>
-          <a class="icon" href="https://github.com/dansup/bulma-templates">
-            <i class="fa fa-github"></i>
-          </a>
+          <strong>Bulma Templates</strong> by <a class="has-text-danger" href="https://github.com/dansup">Daniel Supernault</a>. The source code is licensed
+          <a class="has-text-danger" href="http://opensource.org/licenses/mit-license.php">MIT</a>.
         </p>
       </div>
     </div>

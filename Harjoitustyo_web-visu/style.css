@@ -1,0 +1,18 @@
+/* Yleiset määritykset sivulle */
+* {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Headerin otsikko "MIKKO RENKOLA */
+h1 {
+    color: #ebebeb;
+    font-size: 400%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 4px;
+}
+
+#header {
+     background-image:url(../images/tausta.png);
+}
