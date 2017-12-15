@@ -26,3 +26,5 @@ W44-2: https://codepen.io/K8599/pen/PEqVbR
 W45: https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-renksu/blob/master/W45_Inkscape_harkka.svg
 
 Harjoitustyö: https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-renksu/Harjoitustyo_web-visu/
+
+Harjoitustyön raportti:
