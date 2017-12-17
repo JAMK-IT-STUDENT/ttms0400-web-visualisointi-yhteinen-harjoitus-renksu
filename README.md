@@ -27,4 +27,4 @@ W45: https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harj
 
 Harjoitustyö: https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-renksu/Harjoitustyo_web-visu/
 
-Harjoitustyön raportti:
+Harjoitustyön raportti: https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-renksu/blob/gh-pages/Harjoitustyo_web-visu/README.md
