@@ -1,6 +1,3 @@
-# Web-visualisointi
-K8599/Mikko Renkola
-
 # W40 Harkat
 Mockup: https://ninjamock.com/s/4869XWx<br>
 Bootstrap:<br>
